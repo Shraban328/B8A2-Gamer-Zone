@@ -25,6 +25,16 @@ i {
 .color-light-gray {
   color: #534c64;
 }
+.btn-primary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 48px;
+  color: rgba(255, 255, 255, 1);
+  background: #ff42a5;
+  padding: 20px 40px;
+  text-transform: uppercase;
+}
 /* nav_styles */
 header {
   max-width: 1500px;
@@ -74,8 +84,9 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-image: url(../images/Group\ 14.png);
+  background-repeat: no-repeat;
 }
-
 .section-title span {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
@@ -88,14 +99,21 @@ header {
 .color-light-gray > li {
   font-size: 1.25rem;
   font-weight: 500;
-  margin-top: 10px;
+  margin-top: 15px;
 }
-.btn-primary {
+.sign-in-btn {
+  margin-top: 50px;
+}
+.sign-in-btn button {
+  margin-right: 20px;
+}
+.btn-secondary {
   font-size: 1.25rem;
   font-weight: 600;
   border: none;
   border-radius: 48px;
   color: rgba(255, 255, 255, 1);
-  background: #ff42a5;
+  background: #4ec5f7;
   padding: 20px 40px;
+  text-transform: uppercase;
 }
