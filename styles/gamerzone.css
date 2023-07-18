@@ -10,6 +10,9 @@
 /* ==========================================================================
    SHARED_STYLES
    ========================================================================== */
+img {
+  width: 100%;
+}
 li {
   list-style: none;
 }
@@ -101,6 +104,7 @@ header {
   font-weight: 500;
   margin-top: 15px;
 }
+
 .sign-in-btn {
   margin-top: 50px;
 }
@@ -116,4 +120,55 @@ header {
   background: #4ec5f7;
   padding: 20px 40px;
   text-transform: uppercase;
+}
+
+/* ==========================================================================
+   media queries styles
+   ========================================================================== */
+
+/* small_devices */
+@media screen and (max-width: 576px) {
+  .menu-items-container,
+  .menu-items {
+    flex-direction: column;
+  }
+  .sign-in-container {
+    flex-direction: column-reverse;
+    gap: 70px;
+  }
+  .logo-title {
+    font-size: 1.5rem;
+  }
+  .menu-items-logo {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .menu-items {
+    margin-top: 40px;
+    gap: 40px;
+  }
+  .sign-in-btn button {
+    margin-top: 5px;
+  }
+}
+
+/* medium and larger_devices */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .menu-items-container,
+  .menu-items {
+    flex-direction: column;
+  }
+  .sign-in-container {
+    flex-direction: column-reverse;
+    gap: 70px;
+  }
+  .menu-items-logo {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .menu-items {
+    margin-top: 40px;
+    gap: 40px;
+  }
 }
