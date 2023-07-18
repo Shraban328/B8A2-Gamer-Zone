@@ -14,7 +14,7 @@ li {
 
 /* nav_styles */
 header {
-  max-width: 1200px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 .menu-items-container {
@@ -37,8 +37,21 @@ header {
 }
 .menu-items {
   display: flex;
+  align-items: center;
 }
 .menu-items li,
 .menu-items div {
   margin-left: 30px;
+  color: #3c354f;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.follow-links {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 20px;
+}
+.follow-links i {
+  font-size: larger;
 }
