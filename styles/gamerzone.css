@@ -1,0 +1,44 @@
+/* SHARED_STYLES */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* nav_styles */
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.menu-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+.menu-items-logo {
+  display: flex;
+}
+.logo-img {
+  margin-right: 20px;
+}
+.logo-title {
+  font-size: 2.8rem;
+}
+.logo-title span {
+  color: #ff42a5;
+}
+.menu-items {
+  display: flex;
+}
+.menu-items li,
+.menu-items div {
+  margin-left: 30px;
+}
