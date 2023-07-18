@@ -1,4 +1,4 @@
-/* SHARED_STYLES */
+/* General */
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
@@ -7,14 +7,27 @@
   padding: 0;
   margin: 0;
 }
-
+/* ==========================================================================
+   SHARED_STYLES
+   ========================================================================== */
 li {
   list-style: none;
 }
 
+i {
+  font-size: larger;
+}
+.section-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.color-light-gray {
+  color: #534c64;
+}
 /* nav_styles */
 header {
-  max-width: 1700px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 .menu-items-container {
@@ -52,6 +65,37 @@ header {
   background: rgba(11, 2, 35, 0.1);
   padding: 20px;
 }
-.follow-links i {
-  font-size: larger;
+
+/* main_styles */
+
+/* sign-in_styles */
+
+.sign-in-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-title span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5.9375rem;
+  font-weight: 800;
+}
+
+.color-light-gray > li {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.btn-primary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 48px;
+  color: rgba(255, 255, 255, 1);
+  background: #ff42a5;
+  padding: 20px 40px;
 }
