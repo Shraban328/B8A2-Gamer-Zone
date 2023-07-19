@@ -98,7 +98,7 @@ i {
   background-image: url(../images/Group\ 14.png);
   background-repeat: no-repeat;
 }
-.section-title span {
+.sign-in-container span {
   font-size: 5.9375rem;
   font-weight: 800;
 }
@@ -151,7 +151,31 @@ i {
   font-size: 1.25rem;
   font-weight: 500;
 }
+/* features_styles */
 
+.features-container {
+  display: flex;
+  justify-content: center;
+  padding: 120px;
+  gap: 120px;
+}
+.features-container .section-title,
+.features-container span {
+  font-weight: 700;
+}
+.features-contents {
+  text-align: right;
+  padding: 100px;
+}
+.features-contents > p {
+  max-width: 500px;
+}
+.side-img {
+  max-width: 318px;
+  position: relative;
+  top: -250px;
+  left: -100px;
+}
 /* footer_styles */
 .footer-contents {
   background: #0b0223;
