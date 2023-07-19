@@ -168,6 +168,7 @@ i {
   text-align: right;
   padding: 100px;
 }
+
 .features-contents > p {
   max-width: 500px;
 }
@@ -191,6 +192,9 @@ i {
   padding: 120px 300px;
 }
 .game-category {
+  color: #0b0223;
+  font-size: 1.25rem;
+  font-weight: 600;
   background: white;
   border-radius: 50px;
   display: flex;
@@ -199,13 +203,21 @@ i {
   padding: 10px 0;
   gap: 15px;
 }
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover,
+.btn5:hover,
+.btn6:hover,
+.btn7:hover,
+.btn8:hover,
+.btn9:hover {
+  cursor: pointer;
+  border: 2px solid #ff42a5;
+  color: #ff42a5;
+}
 .game-category img {
   width: 20%;
-}
-.game-category-title {
-  color: #0b0223;
-  font-size: 1.25rem;
-  font-weight: 600;
 }
 /* footer_styles */
 .footer-contents {
