@@ -235,7 +235,7 @@ i {
 
 /* medium and larger_devices */
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 1024px) {
   .menu-items-container,
   .menu-items {
     flex-direction: column;
@@ -251,5 +251,8 @@ i {
   .menu-items {
     margin-top: 40px;
     gap: 40px;
+  }
+  .footer-contents {
+    padding: 0;
   }
 }
