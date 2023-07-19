@@ -171,10 +171,38 @@ i {
   max-width: 500px;
 }
 .side-img {
-  max-width: 318px;
+  max-width: 50%;
   position: relative;
   top: -250px;
   left: -100px;
+}
+/* game_category_styles */
+.game-categories-container {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 120px 300px;
+}
+.game-category {
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  max-width: 300px;
+  align-items: center;
+  padding: 10px 0;
+  gap: 15px;
+}
+.game-category img {
+  width: 20%;
+}
+.game-category-title {
+  color: #0b0223;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 /* footer_styles */
 .footer-contents {
@@ -221,7 +249,8 @@ i {
 /* small_devices */
 @media screen and (max-width: 576px) {
   .menu-items-container,
-  .menu-items {
+  .menu-items,
+  .features-container {
     flex-direction: column;
   }
   .sign-in-container {
@@ -242,8 +271,17 @@ i {
   .sign-in-btn button {
     margin-top: 5px;
   }
-  .footer-contents {
+  .footer-contents,
+  .features-container {
     padding: 0;
+  }
+  .features-contents {
+    text-align: center;
+    padding: 20px;
+  }
+  .side-img {
+    top: -150px;
+    left: -50px;
   }
   .footer-options {
     grid-template-columns: repeat(3, 1fr);
@@ -259,7 +297,8 @@ i {
 
 @media screen and (min-width: 576px) and (max-width: 1024px) {
   .menu-items-container,
-  .menu-items {
+  .menu-items,
+  .features-container {
     flex-direction: column;
   }
   .sign-in-container {
@@ -274,7 +313,14 @@ i {
     margin-top: 40px;
     gap: 40px;
   }
-  .footer-contents {
+  .features-contents {
+    text-align: center;
+  }
+  .features-contents > p {
+    max-width: 100%;
+  }
+  .footer-contents,
+  .features-contents {
     padding: 0;
   }
 }
