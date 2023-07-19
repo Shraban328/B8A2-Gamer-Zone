@@ -78,7 +78,9 @@ i {
   background: rgba(11, 2, 35, 0.1);
   padding: 20px;
 }
-
+.padding30 {
+  padding: 30px;
+}
 /* main_styles */
 
 /* sign-in_styles */
@@ -149,6 +151,42 @@ i {
 }
 .card-description {
   font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/* footer_styles */
+.footer-contents {
+  background: #0b0223;
+  padding: 100px 600px;
+  text-align: center;
+}
+.footer-logo {
+  display: flex;
+  color: #fff;
+  font-size: 2.8rem;
+  font-weight: 700;
+  justify-content: center;
+}
+.footer-logo > img {
+  max-width: 100px;
+}
+
+.footer-options {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.footer-social-icons img {
+  max-width: 50px;
+  margin-right: 50px;
+}
+.footer-terms {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
 }
 
