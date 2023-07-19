@@ -183,9 +183,14 @@ i {
     rgba(255, 66, 165, 0.03) 0%,
     rgba(255, 66, 165, 0.03) 100%
   );
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
   padding: 120px 300px;
+}
+.category-1,
+.category-2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
 }
 .game-category {
   background: white;
